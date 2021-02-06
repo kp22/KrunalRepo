@@ -1,8 +1,10 @@
 package com.callback;
 
+import com.model.UserModel;
+
 public interface UserInterFace {
 
-    void onSuccess();
+    void onUserDataSuccess(UserModel model);
 
-    void onFailed();
+    void onUserDataFailed();
 }

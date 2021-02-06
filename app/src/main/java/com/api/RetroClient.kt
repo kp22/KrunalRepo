@@ -22,7 +22,6 @@ object RetroClient {
 
     /**
      * Get API Service
-     * @return API Service
      */
     val apiService: ApiService get() = retrofitInstance.create(ApiService::class.java)
 
